@@ -34,7 +34,7 @@ cat("Results will be saved to:", results_dir, "\n")
 cat("Plots will be saved to:", plots_dir, "\n\n")
 
 cat("\n--- 1. Data Loading and Preparation ---\n")
-
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 wine_data <- read.csv("winequality-red.csv", sep = ";", header = TRUE)
 
 colnames(wine_data) <- gsub(" ", "_", colnames(wine_data))

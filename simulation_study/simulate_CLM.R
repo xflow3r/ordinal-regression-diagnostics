@@ -21,7 +21,6 @@ set.seed(123)
 
 options(DHARMaSignalColor = "#E69F00")
 
-setwd("C:/Users/leoko/Documents/TU/bachelorarbeit/simulationStudy")
 project_dir <- getwd()
 
 results_dir <- file.path(project_dir, "results")

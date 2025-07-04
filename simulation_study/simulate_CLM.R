@@ -278,8 +278,6 @@ start_time <- Sys.time()
 
 
 source("plot_surrogate_residuals.R")
-results_dir <- "results"
-plots_dir <- "plots"
 
 
 # --- Generate Surrogate Residuals + Plots ---

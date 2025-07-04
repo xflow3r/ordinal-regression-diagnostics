@@ -35,7 +35,7 @@ cat("Plots will be saved to:", plots_dir, "\n\n")
 
 cat("\n--- 1. Data Loading and Preparation ---\n")
 
-wine_data <- read.csv("C:/Users/leoko/Documents/TU/bachelorarbeit/simulationStudy/winequality-red.csv", sep = ";", header = TRUE)
+wine_data <- read.csv("winequality-red.csv", sep = ";", header = TRUE)
 
 colnames(wine_data) <- gsub(" ", "_", colnames(wine_data))
 
